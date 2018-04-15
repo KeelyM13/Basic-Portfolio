@@ -7,6 +7,7 @@ body {
     line-height: 34px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
+    background: url(assets/images/funky-lines.png)
 }
 
 .container {
@@ -30,7 +31,7 @@ h1, h2, h3 {
     color: #4aaaa5;
 }
 
-h2 {
+h1 {
     font-size: 30px;
     line-height: 49px;
     border-bottom: 3px solid #ddd;
@@ -78,6 +79,7 @@ nav a {
     display: inline-block;
     border-left: 1px solid #efefef;
     padding-left: 15px;
+    line-height: 18px;
 }
 
 nav a:first-child {
@@ -86,6 +88,7 @@ nav a:first-child {
 
 #main-container {
     padding-top: 130px;
+    
 }
 
 .main-section {
@@ -106,6 +109,35 @@ nav a:first-child {
     margin-right: 25px;
 }
 
+.sidebar {
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 270px;
+    float: right;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+h3, .sidebar, h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+
+}
+
+.social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.social:last-child {
+    margin-right: 0;
+}
+
 footer {
     background: #666;
     color: #fff;
@@ -115,6 +147,8 @@ footer {
     color: #ccc;
     font-size: 12px;
     text-align: center;
+ 
+    bottom: 0;
 }
 
 .work {
@@ -133,6 +167,7 @@ footer {
     width: 100%;
     border: 0 none;
     opacity: .8;
+   
 }
 
 .work h3 {
